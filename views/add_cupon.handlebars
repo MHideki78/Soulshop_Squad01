@@ -1,0 +1,18 @@
+<div class="m-1">
+    <h2>Adicionar cupon</h2>
+    <hr />
+    <form action="/cupon/adicionar" method="POST">
+        <div class="form-group">
+            <label for="codigo">Codigo*</label>
+            <input type="text" name="codigo" id="codigo" class="form-control" required />
+        </div>
+        <div class="form-group">
+            <label for="valor">Valor*</label>
+            <input type="number" name="valor" id="valor" class="form-control" required />
+        </div>
+        <div class="form-group">
+            <label for="validade">Validade*</label>
+            <input type="text" name="validade" id="validade" class="form-control" required></input>
+            <button class="btn btn-primary mt-2">Adicionar</button>
+    </form>
+</div>
